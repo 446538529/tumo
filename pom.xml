@@ -182,21 +182,12 @@
     </dependencies>
 
     <build>
+        <finalName>tumo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-               <!-- <configuration>
-                    <fork>true</fork>
-                </configuration>-->
             </plugin>
-            <!--<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-war-plugin</artifactId>
-                <configuration>
-                    <warName>young</warName>
-                </configuration>
-            </plugin>-->
         </plugins>
     </build>
 
